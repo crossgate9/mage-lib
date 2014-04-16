@@ -10,6 +10,7 @@ abstract class Crossgate9_Field_Abstract {
     
     public function setEntities($_entities) {
         $this->_entities = $_entities;
+        return $this;
     }
 
     public function getEntities() {
